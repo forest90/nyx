@@ -1,0 +1,33 @@
+{
+	"name": "nyx/console",
+	"description": "A complete set of tools to help you create complex and extensible command-line applications easily.",
+	"keywords": ["nyx", "framework", "cli", "console", "commands"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Michał Chojnacki",
+			"email": "m.chojnacki@muyo.pl"
+		}
+	],
+
+	"require": {
+		"php": ">=5.5.5",
+		"psr/log": "*",
+		"nyx/connect": "*",
+		"nyx/core": "*",
+		"nyx/events": "*",
+		"nyx/diagnostics": "*",
+		"nyx/utils": "*"
+	},
+
+	"require-dev": {
+		"phpunit/phpunit": "*"
+	},
+
+	"autoload": {
+		"psr-0": {"nyx\\console\\": ""}
+	},
+
+	"target-dir": "nyx/console",
+	"minimum-stability": "dev"
+}

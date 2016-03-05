@@ -1,0 +1,32 @@
+{
+	"name": "nyx/connect",
+	"description": "Connectivity library.",
+	"keywords": ["nyx", "connection", "socket", "stream"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Michał Chojnacki",
+			"email": "m.chojnacki@muyo.pl"
+		}
+	],
+
+	"require": {
+		"php": ">=5.5.5",
+		"nyx/core": "*"
+	},
+
+	"require-dev": {
+		"phpunit/phpunit": "*"
+	},
+
+	"suggest": {
+		"mailgun/mailgun-php": "In order to use Mailgun's REST API as a Mail Handler."
+	},
+
+	"autoload": {
+		"psr-0": {"nyx\\connect\\": ""}
+	},
+
+	"target-dir": "nyx/connect",
+	"minimum-stability": "dev"
+}

@@ -1,0 +1,29 @@
+{
+	"name": "nyx/system",
+	"description": "OS information and process execution library.",
+	"keywords": ["nyx", "os", "system", "sysinfo", "environment", "process", "daemon"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Michał Chojnacki",
+			"email": "m.chojnacki@muyo.pl"
+		}
+	],
+
+	"require": {
+		"php": ">=5.5.5",
+		"nyx/core": "*",
+		"nyx/utils": "*"
+	},
+
+	"require-dev": {
+		"phpunit/phpunit": "*"
+	},
+
+	"autoload": {
+		"psr-0": {"nyx\\system\\": ""}
+	},
+
+	"target-dir": "nyx/system",
+	"minimum-stability": "dev"
+}

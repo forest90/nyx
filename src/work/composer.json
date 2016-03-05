@@ -1,0 +1,29 @@
+{
+	"name": "nyx/work",
+	"description": "Queue and background processing tools.",
+	"keywords": ["nyx", "queueing", "messaging", "background", "schedule", "tasks"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Michał Chojnacki",
+			"email": "m.chojnacki@muyo.pl"
+		}
+	],
+
+	"require": {
+		"php": ">=5.5.5",
+		"nyx/core": "*",
+		"nyx/events": "*"
+	},
+
+	"require-dev": {
+		"phpunit/phpunit": "3.7.*"
+	},
+
+	"autoload": {
+		"psr-0": {"nyx\\work\\": ""}
+	},
+
+	"target-dir": "nyx/work",
+	"minimum-stability": "dev"
+}

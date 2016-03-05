@@ -1,0 +1,28 @@
+{
+	"name": "nyx/deploy",
+	"description": "Static utilities to help in dealing with common tasks.",
+	"keywords": ["nyx", "deploy", "compile", "tasks"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Michał Chojnacki",
+			"email": "m.chojnacki@muyo.pl"
+		}
+	],
+
+	"require": {
+		"php": ">=5.5.5",
+		"nikic/php-parser": "*"
+	},
+
+	"require-dev": {
+		"phpunit/phpunit": "*"
+	},
+
+	"autoload": {
+		"psr-0": {"nyx\\deploy\\": ""}
+	},
+
+	"target-dir": "nyx/deploy",
+	"minimum-stability": "dev"
+}

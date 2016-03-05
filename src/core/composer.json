@@ -1,0 +1,28 @@
+{
+	"name": "nyx/core",
+	"description": "The common classes of Nyx.",
+	"keywords": ["nyx", "framework", "foundation", "collections", "promises"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Michał Chojnacki",
+			"email": "m.chojnacki@muyo.pl"
+		}
+	],
+
+	"require": {
+		"php": ">=5.5.5",
+		"nyx/utils": "*"
+	},
+
+	"require-dev": {
+		"phpunit/phpunit": "*"
+	},
+
+	"autoload": {
+		"psr-0": {"nyx\\core\\": ""}
+	},
+
+	"target-dir": "nyx/core",
+	"minimum-stability": "dev"
+}

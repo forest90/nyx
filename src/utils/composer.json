@@ -1,0 +1,28 @@
+{
+	"name": "nyx/utils",
+	"description": "Static utilities to help in dealing with common tasks.",
+	"keywords": ["nyx", "utility", "utils", "array", "string", "system"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Michał Chojnacki",
+			"email": "m.chojnacki@muyo.pl"
+		}
+	],
+
+	"require": {
+		"php": ">=5.5.5",
+		"nyx/core": "*"
+	},
+
+	"require-dev": {
+		"phpunit/phpunit": "*"
+	},
+
+	"autoload": {
+		"psr-0": {"nyx\\utils\\": ""}
+	},
+
+	"target-dir": "nyx/utils",
+	"minimum-stability": "dev"
+}

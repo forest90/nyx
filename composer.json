@@ -1,0 +1,50 @@
+{
+	"name":        "nyx/nyx",
+	"description": "Nyx. Put the background in the foreground.",
+	"keywords":    ["nyx", "framework"],
+	"license":     "MIT",
+	"homepage":    "https://labs.muyo.pl/nyx/nyx",
+	"authors": [
+		{"name": "Michał Chojnacki", "email": "m.chojnacki@muyo.pl",     "homepage": "http://muyo.pl",   "role": "Developer"},
+		{"name": "Andrzej Mazur",    "email": "andrzej.mazur@end3r.com", "homepage": "http://end3r.com", "role": "Developer"}
+	],
+
+	"support": {
+		"source": "http://labs.muyo.pl/nyx/nyx",
+		"issues": "http://labs.muyo.pl/nyx/nyx/issues",
+		"email":  "labs@muyo.pl"
+	},
+
+	"require": {
+		"php": ">=5.6.0",
+		"psr/log": "*",
+		"stack/builder": "*",
+		"nikic/php-parser": "*",
+		"laravel/framework": "*"
+	},
+
+	"require-dev": {
+		"phpunit/phpunit": "*"
+	},
+
+	"replace": {
+		"nyx/connect":      "self.version",
+		"nyx/console":      "self.version",
+		"nyx/core":         "self.version",
+		"nyx/database":     "self.version",
+		"nyx/deploy":       "self.version",
+		"nyx/diagnostics":  "self.version",
+		"nyx/events":       "self.version",
+		"nyx/framework":    "self.version",
+		"nyx/storage":      "self.version",
+		"nyx/system":       "self.version",
+		"nyx/utils":        "self.version",
+		"nyx/work":         "self.version"
+	},
+
+	"autoload": {
+		"psr-4": {"nyx\\": "src/"}
+	},
+
+	"minimum-stability": "dev"
+}

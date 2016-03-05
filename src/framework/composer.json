@@ -1,0 +1,32 @@
+{
+	"name": "nyx/framework",
+	"description": "Framework for building HTTP applications.",
+	"keywords": ["nyx", "framework"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Michał Chojnacki",
+			"email": "m.chojnacki@muyo.pl"
+		}
+	],
+
+	"require": {
+		"php": ">=5.5.5",
+		"laravel/framework": "*",
+		"stack/builder": "*",
+		"nyx/console": "*",
+		"nyx/database": "*",
+		"nyx/events": "*"
+	},
+
+	"require-dev": {
+		"phpunit/phpunit": "*"
+	},
+
+	"autoload": {
+		"psr-0": {"nyx\\framework\\": ""}
+	},
+
+	"target-dir": "nyx/framework",
+	"minimum-stability": "dev"
+}

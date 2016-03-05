@@ -1,0 +1,41 @@
+{
+	"name": "nyx/diagnostics",
+	"description": "Diagnostics, debugging and profiling tools.",
+	"keywords": ["nyx", "debugging", "diagnostics", "exception", "error", "profiling", "benchmark", "dump", "analysis"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Michał Chojnacki",
+			"email": "m.chojnacki@muyo.pl"
+		}
+	],
+
+	"require": {
+		"php": ">=5.5.5",
+		"nikic/php-parser": "*",
+		"psr/log": "*",
+		"nyx/core": "*",
+		"nyx/events": "*",
+		"nyx/storage": "*",
+		"nyx/utils": "*"
+	},
+
+	"require-dev": {
+		"phpunit/phpunit": "*"
+	},
+
+	"suggest": {
+		"ccampbell/chromephp": "In order to use Chrome Logger as variable dumper.",
+		"leeoniya/dump-r": "In order to use Dump_r as variable dumper.",
+		"raveren/kint": "In order to use Kint as variable dumper.",
+		"raulfraile/ladybug": "In order to use Ladybug as variable dumper.",
+		"mnapoli/number-two": "In order to use NumberTwo as variable dumper."
+	},
+
+	"autoload": {
+		"psr-0": {"nyx\\diagnostics\\": ""}
+	},
+
+	"target-dir": "nyx/diagnostics",
+	"minimum-stability": "dev"
+}

@@ -1,0 +1,29 @@
+{
+	"name": "nyx/events",
+	"description": "Basic event handling. An event Emitter, Event and Subscriber classes and an Event Loop.",
+	"keywords": ["nyx", "events", "event-emitter", "event-dispatcher", "event-loop", "event-subscriber", "async"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Michał Chojnacki",
+			"email": "m.chojnacki@muyo.pl"
+		}
+	],
+
+	"require": {
+		"php": ">=5.5.5",
+		"nyx/core": "*",
+		"nyx/system": "*"
+	},
+
+	"require-dev": {
+		"phpunit/phpunit": "*"
+	},
+
+	"autoload": {
+		"psr-0": {"nyx\\events\\": ""}
+	},
+
+	"target-dir": "nyx/events",
+	"minimum-stability": "dev"
+}
